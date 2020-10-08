@@ -1,0 +1,64 @@
+"Coin Flip" by Noah Barr
+
+Use American dialect.
+Use serial comma.
+Release along with a website.
+Release along with an interpreter.
+Release along with the library card.
+Release along with the source text.
+
+Book 1 - The World and what we can do in it
+
+Part 1 - Places
+
+Chapter 1 - The plaza and all therein
+
+The plaza is a room. "You stand inside a plaza, surrounded on all sides by [businesses] topped by peoples['] [apartments]. At the center of the plaza is a [fountain], simple in design and fuction, but quiet wide. At the south end of the plaza, you see an alleyway that splits two groups of buildings."
+
+Section 1 - Scenery in the plaza
+
+A fountain is here with description "The walls of the fountain form a simple circle, wide enough to sit on and far enough away from the gush of water that sprays up from the center to remain dry. Through the water's surface, you can see that the floor of the fountain is littered with coins." It is scenery.
+
+Apartments are here with description "Above the businesses, you see balconies with tallish windows. Curtains dressing each one, but none alike. Chairs and plants can be seen sporadically behind the railings." It is scenery.
+
+Businesses are here with description "Several businesses surround this plaza. None stand out to you specifically." It is scenery.
+
+Section 2 - Things in the plaza
+
+A flat rock is here. "A flat rock has been left here, perhaps by a child." The description of it is "Flat and smooth, like you might find by a river. Either side is indistinguishable from the other. A child must have left it here, intending to skip it across the water."
+
+A coin is here. "A coin lays on the ground before you, [coin face] up." The description of it is "Currently the coin shows [coin face]."
+
+A leaf is here. "A stray leaf, blown in from a side street decorated with trees." The description of it is "Broad and still green, but otherwise perfectly normal."
+
+Chapter 2 - The alleyway
+
+The alleyway is south of the plaza. "An empty alleyway that dead-ends. Perhaps it is used as a vendor location during festivals, being wide enough for some market stalls and a couple rows of people."
+
+Part 2 - Actions
+
+Chapter 1 - Flipping stuff
+
+Section 1 - How to flip anything
+
+Flipping is an action applying to one carried thing.
+
+Understand "flip [something]" as flipping.
+
+Carry out flipping:
+	say "Flipn't."
+
+Section 2 - How to flip a coin
+
+A coin face is a kind of value. The coin faces are heads and tails. A coin has a coin face.
+
+Instead of flipping the coin:
+	now the coin face of the coin is a random coin face;
+	say "You balance the coin on your thumb and give it a flick. It spins in the air several times before landing on the ground with a soft ringing that echoes throughout [the location]. It lands, showing [coin face].";
+	now the coin is in the location.
+
+Section 3 - Can't really flip a rock
+
+Instead of flipping the rock:
+	say "Well, you give it a shot. The rock spins through the air before landing with a clatter, heads or tails? Who's to say.";
+	now the rock is in the location.
